@@ -1,0 +1,65 @@
+.smallBtn{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border: 3px solid rgba(238, 80, 87,0.3);
+    border-radius: 15px;
+
+    color: rgba(238, 80, 87, 0.8);
+    font-size: 20px;
+}
+
+.smallBtn:focus, .smallBtn:hover{
+    border: 3px solid rgba(238, 80, 87,0.7);
+    color: rgba(238, 80, 87, 1);
+}
+
+.smallBtn-dark{
+    border: 3px solid rgba(238, 80, 87,0.4);
+    background-color: rgba(238, 80, 87,0.6);
+    color: rgba(240, 240, 240, 0.9);
+}
+
+.smallBtn-dark:focus, .smallBtn-dark:hover{
+    border: 3px solid rgba(238, 80, 87,0.7);
+    background-color: rgba(238, 80, 87,0.8);
+    color: rgba(250, 250, 250, 1);
+}
+
+.smallBtn-orange{
+    border: 3px solid rgba(255, 153, 51,0.6);
+    color: rgba(255, 153, 51, 0.8);
+}
+
+.smallBtn-orange:focus, .smallBtn-orange:hover{
+    border: 3px solid rgba(255, 153, 51,0.9);
+    color: rgba(255, 153, 51, 1);
+}
+
+.smallBtn > i{
+    margin-right: 10px;
+}
+
+.smallBtn-input{
+    margin: 0px 0px 0px 10px;
+    padding:  10px;
+    border: 3px solid rgba(70, 70, 70,0.4);
+    border-radius: 15px;
+    outline:0;
+    color: #9c9c9c;
+    font-size: 14pt;
+
+    width: 200px;
+}
+
+.smallBtn-select{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid rgba(70, 70, 70,0.4);
+    border-radius: 15px;
+    background-color: #FFF;
+    color: #9c9c9c;
+    font-size: 14pt;
+    outline: 0px;
+
+    
+}
